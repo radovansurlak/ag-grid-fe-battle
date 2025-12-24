@@ -13,6 +13,10 @@ npm install
 ```bash
 npm run start
 ```
+This will simultaneously start all three apps on different ports:
+- React: http://localhost:7777
+- Vue: http://localhost:9999
+- Svelte: http://localhost:8888
 
 Each app renders 100 tables with 30 columns and 500 rows per table.
 
@@ -24,4 +28,3 @@ Update constants in `packages/mock-data/src/index.js`:
 - `ROW_COUNT`
 
 Column definitions are already expanded to 30 columns to mirror the heavier target scenario.
-# ag-grid-fe-battle
