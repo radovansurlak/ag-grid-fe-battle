@@ -1,0 +1,21 @@
+{
+  "name": "@fe-battle/react",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@fe-battle/mock-data": "file:../../packages/mock-data",
+    "ag-grid-community": "34.3.1",
+    "ag-grid-react": "34.3.1",
+    "react": "latest",
+    "react-dom": "latest"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "5.1.2",
+    "vite": "7.3.0"
+  }
+}

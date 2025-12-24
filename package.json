@@ -1,0 +1,20 @@
+{
+  "name": "fe-battle",
+  "private": true,
+  "workspaces": [
+    "apps/*",
+    "packages/*"
+  ],
+  "scripts": {
+    "start": "concurrently 'npm run dev:*'",
+    "dev:react": "npm --prefix apps/react run dev",
+    "dev:vue": "npm --prefix apps/vue run dev",
+    "dev:svelte": "npm --prefix apps/svelte run dev",
+    "build:react": "npm --prefix apps/react run build",
+    "build:vue": "npm --prefix apps/vue run build",
+    "build:svelte": "npm --prefix apps/svelte run build"
+  },
+  "devDependencies": {
+    "concurrently": "^9.2.1"
+  }
+}
